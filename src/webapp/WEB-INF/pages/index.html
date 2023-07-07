@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="java">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,9 @@
     <th:block th:each="msg : ${messages}">
         <h1 th:text="${msg}"></h1>
     </th:block>
+    <h2>
+    <a href="cars">Your cars is here</a>
+    </h2>
 </div>
 </body>
 </html>
