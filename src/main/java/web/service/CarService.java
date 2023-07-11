@@ -8,5 +8,5 @@ import java.util.List;
  * @author Alfazard on 07.07.2023
  */
 public interface CarService {
-    List<Car> getCars();
+    List<Car> getCars(int count);
 }
